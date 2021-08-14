@@ -1,0 +1,89 @@
+.plus{
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    padding: 0 40px;
+    height: 100%;
+    align-items: center;
+    color: #25265E;
+}
+
+.Cardcontainer{
+   display: flex;
+   align-items: center; 
+   .left{
+       img{
+           width: 55px;
+           height: 55px;
+           object-fit: contain;
+           padding-right: 8px;
+       }
+   }
+   .right{
+       width: 170px;
+       span{
+        font-weight: 900;
+        font-size: 16px;
+        color: #000;
+        margin-top: 7px;
+        line-height: 30px;
+        }
+       }
+       padding-bottom: 15px;
+
+       .listContainer{
+           display: flex;
+           .widgetContainer{
+               .icons{
+                text-align: center;
+                   ul{
+                    display: flex;
+                    list-style: none;
+                    padding-left: 0;
+                    justify-content: center;
+                    margin-left: 0;
+                       li{
+                        font-family: "Lato", sans-serif;
+                        font-weight: 900;
+                        font-size: 25px;
+                        color: #000;
+                        margin-top: 7px;
+                        line-height: 30px;
+                        display: flex;
+                        &:not(:last-child)::after{
+                            content: "+";
+                            display: flex;
+                            font-family: "Lato", sans-serif;
+                            font-size: 80px;
+                            font-weight: 900;
+                            padding: 0 40px;
+                            height: 100%;
+                            align-items: center;
+                            color: #25265E;
+                            
+                        }
+                        figure{
+                            display: flex;
+                            text-align: center;
+                            flex-direction: column;
+                            img{
+                                margin: 0 auto;
+                            }
+                            figcaption{
+                                font-family: "Lato", sans-serif;
+                                font-weight: 900;
+                                font-size: 25px;
+                                color: #000;
+                                margin-top: 7px;
+                                line-height: 30px;
+                            }
+                        }    
+                    }
+                }
+            }
+        }
+    
+    }
+}
+ 

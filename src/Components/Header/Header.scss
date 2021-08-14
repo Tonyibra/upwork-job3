@@ -1,0 +1,67 @@
+.container{
+    background-image: url('http://gethappyhouse.com/wp-content/uploads/2020/12/mobile-background.png');
+    background-position: 80% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 227px;
+    display: flex;
+    flex-direction: column;
+    .headerContainer{
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        height: 75px;
+        align-items: center;
+        padding: 15px 0;
+        transition: all 0.3s ease-in;
+        justify-content: space-between;
+        box-sizing: border-box;
+        .left{
+            padding: 0px 10px;
+            .title{
+               
+                    font-size: 22px;
+                    line-height: 20px;
+                    color: white;
+                    cursor: pointer;
+                
+            }
+        }
+        .right{
+            padding: 0px 10px;
+            display: flex;
+            align-items: center;
+            .hamburgur{
+                display: flex;
+                flex-direction:column;
+                justify-content: space-between;
+                width:25px;
+                height:20px;
+                cursor: pointer;
+                span{
+                    width: 100%;
+                    height:2px;
+                    background-color: #fff;
+                    transform-origin: left;
+                    transition: all 2s ease;
+                }
+            }
+        }
+    }
+}
+@media (min-width:768px){
+    .container{
+        background-image: url("http://gethappyhouse.com/wp-content/uploads/2020/12/Background.png");
+        padding: 140px 0px 0px 0px;
+        .headerContainer{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}

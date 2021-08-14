@@ -1,0 +1,117 @@
+.footerContainer{
+    background-color: #fafafa;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    .footerTitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+            color: #25265E;
+            font-family: "Lato", Sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 27px;
+
+        }
+    }
+    .footerBody{
+        background-color: #fff;
+        margin-top: 30px;
+        padding: 10px;
+        padding-bottom: 30px;
+        ul{
+            li{
+                display: flex;
+                align-items: center;
+                list-style: none;
+                img{
+                    width: 22px;
+                    height: 22px;
+                    object-fit: contain;
+                }
+                span{
+                    font-size: 15px;
+                    color: #25265E;
+                   padding-left: 8px;
+                   line-height: 18px;
+                }
+                &:not(:last-child){
+                    padding-bottom: calc(20px/2);
+                }
+            }
+           
+        }
+    }
+    .footerCard{
+        box-shadow: 0px 8px 82px 0px rgba(0,0,0,0.1);
+        background: #fff;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        padding: 30px 0px 30px 0px;
+        border-radius: 20px 20px 20px 20px;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        height: 419px;
+        max-width: 950px;
+        .left,.right{
+            display: flex;
+            ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: left;
+
+                list-style: none;
+                li{
+                    display: flex;
+                    img{
+                        width: 22px;
+                        height: 22px;
+                        object-fit: contain;
+                    }
+                    span{
+                        font-size: 21px;
+                        font-weight: 700;
+                        color: #25265E;
+                        padding-left: 8px;
+                        
+                    }
+                    padding-bottom: 20px;
+                    }
+                    
+                }
+                
+            }
+            .divider{
+                height: 270px;
+                border-right: 1px solid rgba(37, 38, 94, 0.2);
+            }
+        
+        }
+    
+    }
+
+    @media (min-width:768px){
+        .footerContainer{
+            margin-top: 0px;
+            .footerTitle{
+                h2{
+                padding-top: 70px;
+                color: #25265E;
+                font-family: "Lato", Sans-serif;
+                font-size: 55px;
+                font-weight: 900;
+                text-transform: uppercase;
+                line-height: 27px;
+                margin-bottom: 70px;
+                }
+            }
+        }
+    }

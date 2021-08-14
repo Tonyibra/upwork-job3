@@ -1,0 +1,161 @@
+.containers{
+    .left{
+        padding: 0 10px;
+        .title{
+            width: 62%;
+        h1{
+            color: white;
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+        h2{
+            margin-top: 28px;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 500;
+            color: #ffffff85;
+        }
+    
+    }
+    .right{
+        
+        text-align: right;
+        img{
+            width: 150px;
+            height: 77px;
+            object-fit: contain;
+            position: relative;
+            top: -30px;
+        }
+    }
+    .btnContainer{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .headerBtn{
+        font-family: "Lato", Sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 20px;
+        border-width: 1px 1px 1px 1px;
+        padding: 10px 15px 10px 15px;
+        text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+        background-color: #EB5757;
+        border-style: solid;
+        border-color: #EB5757;
+        border-radius: 30px 30px 30px 30px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+        color: white;
+        cursor: pointer;
+        z-index: 100;
+    }
+}
+}
+@media (min-width:768px){
+    .containers{
+        position: relative;
+        .left{
+            text-align: center;
+            .title{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+         
+                h1{
+                font-size: 57px;
+                line-height: 1;
+                }
+                margin-bottom: 20px;
+            }
+                
+                h2{
+                    color: #FFFFFF85;
+                    font-family: "Frank Ruhl Libre", Sans-serif;
+                    font-size: 45px;
+                    font-weight: 500;
+                }
+                margin-bottom: 20px;
+            
+        }
+        .svgWrapper{
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            line-height: 0;
+            direction: ltr;
+            bottom: -1px;
+        .svg{
+            display: block;
+            position: relative;
+            left: 50%;
+            width: calc(130% + 1.3px);
+            height: 135px;
+            transform: translateX(-50%) rotateY(
+        180deg
+        );
+        path{
+                fill: #fff;
+                -webkit-transform-origin: center;
+                -ms-transform-origin: center;
+                transform-origin: center;
+                -webkit-transform: rotateY(
+            0deg
+            );
+                transform: rotateY(
+            0deg
+            );
+            
+            }
+        }
+        }
+        .btnContainer{
+        display: flex;
+        width: 60%;
+        position: relative;
+        top: 20px;
+        align-items: center;
+        justify-content: center;
+            
+        .headerBtn{
+            font-family: "Lato", Sans-serif;
+            font-size: 28.5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1.2em;
+            border-width: 1px 1px 1px 1px;
+            padding: 10px 15px 10px 15px;
+            text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+            background-color: #EB5757;
+            border-style: solid;
+            border-color: #EB5757;
+            border-radius: 30px 30px 30px 30px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+            color: white;
+            cursor: pointer;
+            z-index: 100;
+        }
+    }
+    .right{
+        position: absolute;
+        right: 0;
+        top: 0;
+        img{
+            width: 436px;
+            aspect-ratio: auto 436 / 223;
+            height: auto;
+            max-width: 100%;
+            border: none;
+            -webkit-border-radius: 0;
+            border-radius: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        
+        }
+    }
+    }
+}

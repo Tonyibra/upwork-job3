@@ -1,0 +1,35 @@
+.whyusContainer{
+    margin-top: 100px;
+    .whyusImage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .whyUsBody{
+  
+        text-align: center;
+        h2{
+            color: #25265E;
+            font-family: "Lato", Sans-serif;
+            font-size: 20px;
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 60px;
+        }
+        }
+    }
+
+    @media (min-width:768px){
+        .whyusContainer{
+            .whyUsBody{
+                background-color: #F6F8FA;
+                padding: 10px 0px;
+                h2{
+                margin-top: 40px;
+                font-size: 55px;
+            
+                line-height: 60px;
+                }
+            }
+        }
+    }
