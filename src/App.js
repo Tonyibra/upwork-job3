@@ -1,21 +1,17 @@
 import "./App.scss";
 import Footer from "./Components/Footer/Footer";
-import { Header } from "./Components/Header/Header";
-import { WhyUs } from "./Components/Why/WhyUs";
-import { Works } from "./Components/Workds/Works";
 
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { screen1 } from "./Screens/screen1";
+import mainPage from "./Screens/mainPage";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
-      <main>
-        <Works />
-        <WhyUs />
-        <Footer />
-      </main>
-    </div>
+    <Router>
+      <div className="App">
+        <Route path="/" component={mainPage} exact />
+        <Route path="/page1" component={screen1} exact />
+      </div>
+    </Router>
   );
 }
 
