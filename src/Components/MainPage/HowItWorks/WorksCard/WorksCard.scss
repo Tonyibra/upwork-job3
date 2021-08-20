@@ -1,0 +1,47 @@
+.worksCardContainer{
+    padding: 20px 40px;
+    max-width: 750px;
+    box-sizing: border-box;
+    .worksCardImageContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    .worksCardImage{
+        padding: 15px 15px 15px 15px;
+        background-color: #006DD459;
+        border-radius: 50px 50px 50px 50px;
+        width: 70px;
+        height: 73px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        img{
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+            cursor: pointer;
+        }
+    }
+}
+    .worksCardText{
+        margin-bottom: 16px;
+        h3{
+            font-family: "Roboto",Sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            color: #1E293B;
+            
+        }
+    }
+    .worksCardDesc{
+        margin-bottom: 10px;
+
+        p{
+            line-height: 1.5;
+            font-size: 17px;
+            color: #1E293B;
+        }
+    }
+}
