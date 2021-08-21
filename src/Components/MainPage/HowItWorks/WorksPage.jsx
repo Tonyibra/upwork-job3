@@ -3,7 +3,7 @@ import { WorksCard } from "./WorksCard/WorksCard";
 import { data } from "./WorksData";
 export const WorksPage = () => {
   return (
-    <div className="worksPageContainer">
+    <div className="worksPageContainer" id="works">
       <div className="workHeader">
         <div className="worksTitle">
           <span>HOW IT WORKS</span>

@@ -2,7 +2,8 @@
     max-width: 1140px;
     background-color: transparent;
     margin: auto;
-    height: 64px;  
+    height: 50px;  
+   
 .topbar{
     display: flex;
     align-items: center;
@@ -16,6 +17,10 @@
             text-transform: uppercase;
             letter-spacing: 1.5px;
             color: #fff;
+            transition: all 250ms ease-in-out;
+            &.white{
+                color: #0e0e0e;
+            }
         }   
     }
     .navList{
@@ -35,7 +40,11 @@
                 &:hover{
                     color: #006DD4;
                 }
+                &.white{
+                    color: #0e0e0e;
+                }
             }
+           
         }
     }
     .socials{
@@ -78,6 +87,9 @@
         .mobileMenu-icon{
             cursor: pointer;
             color: white;
+            &.white{
+                color: #0e0e0e;
+            }
             
         }
     }
@@ -100,7 +112,9 @@
         .mobileMenu-icon{
             cursor: pointer;
             color: white;
-            
+            &.white{
+                color: #0e0e0e;
+            }
         }
     }
 }

@@ -4,24 +4,56 @@ import Twitter from "./SocialsIcons/twitter-brands.svg";
 import Pinterest from "./SocialsIcons/pinterest-brands.svg";
 import { useMediaQuery } from "react-responsive";
 import { Menu } from "@material-ui/icons";
-export const Topbar = () => {
+import { Link, animateScroll as scroll } from "react-scroll";
+
+export const Topbar = ({ colorChange }) => {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   const isMobile = useMediaQuery({ maxWidth: 1024 });
   return (
     <header className="topbarContainer">
       <div className="topbar">
         <div className="logo">
-          <span>Kalacoat</span>
+          <span
+            className={colorChange && "white"}
+            onClick={() => scrollToTop()}
+          >
+            Kalacoat
+          </span>
         </div>
         {!isMobile ? (
           <>
             <div className="navList">
               <ul>
-                <li>How it works</li>
-                <li>Testimonials</li>
-                <li>Why us</li>
-                <li>Services</li>
-                <li>Faq</li>
-                <li>Coming soon</li>
+                <li className={colorChange && "white"}>
+                  <Link to="works" smooth={true} delay={100} offset={-50}>
+                    How it works
+                  </Link>
+                </li>
+                <li className={colorChange && "white"}>
+                  <Link
+                    to="testimonials"
+                    smooth={true}
+                    delay={100}
+                    offset={-45}
+                  >
+                    Testimonials
+                  </Link>
+                </li>
+                <li className={colorChange && "white"}>
+                  <Link to="whyus" smooth={true} delay={100} offset={-50}>
+                    Why us
+                  </Link>
+                </li>
+                <li className={colorChange && "white"}>
+                  <Link to="services" smooth={true} delay={100} offset={-50}>
+                    Services
+                  </Link>
+                </li>
+                <li className={colorChange && "white"}>Faq</li>
+                <li className={colorChange && "white"}>Coming soon</li>
               </ul>
             </div>
             <div className="socials">
@@ -38,7 +70,10 @@ export const Topbar = () => {
           </>
         ) : (
           <div className="mobile-Container">
-            <Menu className="mobileMenu-icon" fontSize="large" />
+            <Menu
+              className={"mobileMenu-icon " + (colorChange && "white")}
+              fontSize="large"
+            />
           </div>
         )}
       </div>

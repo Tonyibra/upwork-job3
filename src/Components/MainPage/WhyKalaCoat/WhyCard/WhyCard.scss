@@ -1,0 +1,38 @@
+.cardContainer{
+    background-color: #F8F9FA;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+    transition: all 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 15px 15px 15px 15px;
+    padding: 40px 30px 40px 30px;
+    max-width: 345px;
+    height: 282px;
+    .cardContent{
+        width: 100%;
+        .cardIcon{
+            margin-bottom: 15px;
+            img{
+                width: 33px;
+                height: 30px;
+                object-fit: contain;
+            }
+        }
+        .cardTitle{
+            span{
+                font-family: "Roboto",Sans-serif;
+                font-size: 21px;
+                font-weight: 600;
+                letter-spacing: 0px;
+                color: #051C2C;
+            }
+            margin-bottom: 15px;
+        }
+        .cardDesc{
+            p{
+                color: #051C2C;
+                font-family: "Roboto",Sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+    }
+}
