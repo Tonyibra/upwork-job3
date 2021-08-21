@@ -6,6 +6,7 @@ import { WorksPage } from "../Components/MainPage/HowItWorks/WorksPage";
 import { Testimonials } from "../Components/MainPage/Testimonials/Testimonials";
 import Why from "../Components/MainPage/WhyKalaCoat/Why";
 import { Services } from "../Components/MainPage/Services/Services";
+import { Faq } from "../Components/MainPage/FAQ/Faq";
 
 const MainPage = () => {
   const [colorChange, setColorchange] = useState(false);
@@ -28,6 +29,7 @@ const MainPage = () => {
         <Testimonials />
         <Why />
         <Services />
+        <Faq />
       </div>
     </div>
   );

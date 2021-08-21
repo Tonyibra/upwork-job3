@@ -52,7 +52,11 @@ export const Topbar = ({ colorChange }) => {
                     Services
                   </Link>
                 </li>
-                <li className={colorChange && "white"}>Faq</li>
+                <li className={colorChange && "white"}>
+                  <Link to="faq" smooth={true} delay={100} offset={-50}>
+                    Faq
+                  </Link>
+                </li>
                 <li className={colorChange && "white"}>Coming soon</li>
               </ul>
             </div>
