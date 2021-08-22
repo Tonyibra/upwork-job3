@@ -3,7 +3,7 @@ import "./Soon.scss";
 import { SoonCard } from "./SoonCard/SoonCard";
 export const Soon = () => {
   return (
-    <div className="testWrapper" id="soon">
+    <div className="soonWrapper" id="soon">
       <div className="overlay">
         <div className="content"></div>
       </div>
