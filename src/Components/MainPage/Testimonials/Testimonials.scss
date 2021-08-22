@@ -1,19 +1,21 @@
 
 .testWrapper{
         position: relative;
+        height: 80vh !important;
 
 .overlay{   
         background-color: transparent;
         background-image: linear-gradient(90deg, #061E4F 12%, #051C2C 70%);
         transition: all 0.3s, border-radius 0.3s, opacity 0.3s;
-        width: 100%;   
+        width: 100%;  
+        height: 80vh !important; 
 .content{
        
         background-image: url('../imgs/pexels-pixabay-48195-scaled.jpg');
         background-position: center center;
         background-size: cover;
         width: 100%;
-        height: 80vh;
+        height: 80vh !important;
         opacity: 0.3;
 }
 }

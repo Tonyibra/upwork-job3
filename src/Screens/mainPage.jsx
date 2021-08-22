@@ -8,6 +8,9 @@ import Why from "../Components/MainPage/WhyKalaCoat/Why";
 import { Services } from "../Components/MainPage/Services/Services";
 import { Faq } from "../Components/MainPage/FAQ/Faq";
 import { Soon } from "../Components/MainPage/Soon/Soon";
+import More from "../Components/MainPage/More/More";
+import { Footer } from "../Components/MainPage/Footer/Footer";
+import Copyright from "../Components/MainPage/Copyrights/Copyright";
 
 const MainPage = () => {
   const [colorChange, setColorchange] = useState(false);
@@ -32,6 +35,9 @@ const MainPage = () => {
         <Services />
         <Faq />
         <Soon />
+        <More />
+        <Footer />
+        <Copyright />
       </div>
     </div>
   );

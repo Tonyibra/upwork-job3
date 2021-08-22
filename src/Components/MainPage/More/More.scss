@@ -1,0 +1,110 @@
+.moreContainer{
+    padding: 60px 0px 60px 0px;
+    .moreHeader{
+        text-align: center;
+        .moreTitle{
+            span{
+                color: #006DD4;
+                font-family: "Roboto",Sans-serif;
+                font-weight: 600;
+                text-transform: uppercase;
+
+            }
+            margin-bottom: 20px;
+        }
+    }
+    .moreBody{
+        max-width: 1140px;
+        margin: auto;
+        .listBody{
+        .listTitle{
+            text-align: left;
+            margin-bottom: 20px;
+            span{
+                color: #1E293B;
+                font-family: "Libre Baskerville",Sans-serif;
+                font-size: 30px;
+                text-transform: capitalize;
+            }
+        }
+        .list{
+            ol{
+                padding: 0px 0px 0px 40px;
+                li{
+                    font-family: "Roboto",Sans-serif;
+                    font-size: 16px;
+                    color: #1E293B;
+                    line-height: 1.6;
+                }
+                margin-bottom: 20px;
+            }
+        }
+        .pList{
+            margin: 20px 0px 0px 0px;
+
+            p{
+                font-family: "Roboto",Sans-serif;
+                font-size: 16px;
+                color: #1E293B;
+                margin-bottom: 20px;
+                line-height: 1.3;
+            }
+        }
+    }
+}
+}
+@media (max-width:768px) {
+    .moreContainer{
+        padding: 60px 0px 60px 0px;
+        .moreHeader{
+            text-align: center;
+            .moreTitle{ 
+                span{
+                    color: #006DD4;
+                    font-family: "Roboto",Sans-serif;
+                    font-weight: 600;
+                    text-transform: uppercase;
+    
+                }
+                margin-bottom: 20px;
+            }
+            
+        }
+        .moreBody{
+            max-width: 1140px;
+            margin: auto;
+            .listBody{
+                padding: 0px 30px;
+                
+            .listTitle{
+                text-align: center;
+                margin-bottom: 20px;
+                span{
+                    font-size: 21px;
+                    font-weight: "bold";
+                }
+            }
+            .list{
+                ol{
+                    padding: 0px 0px 0px 40px;
+                    li{          
+                        font-size: 14px;
+                        line-height: 1.2;
+                    }
+                    margin-bottom: 20px;
+                }
+            }
+            .pList{
+                margin: 20px 0px 0px 0px;
+    
+                p{
+                    font-size: 14px;
+                    color: #1E293B;
+                    margin-bottom: 20px;
+                    line-height: 1.8;
+                }
+            }
+        }
+    }
+    }
+}

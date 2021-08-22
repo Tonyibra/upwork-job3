@@ -17,6 +17,13 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 15px;
+        border:1px solid #fff;
+        transition: all 250ms ease-in-out;
+
+        &:hover{
+            background-color: white;
+            border:1px solid #006DD459
+        }
         img{
             width: 80%;
             height: 80%;
