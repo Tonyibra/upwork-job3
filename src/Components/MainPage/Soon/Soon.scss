@@ -61,27 +61,31 @@
 }
 @media (max-width:768px){
   .testWrapper{
-    height: 115vh;
+    height: 120vh;
   
     .overlay{    
-      height: 115vh; 
+      height: 120vh; 
   .content{
-      height: 115vh;   
+      height: 120vh;   
   }
   }
     .soonContent{
         .soonHeader{
             .soonTitle{
+              text-align: center !important;
               span{
-                font-size: 16px;
+                font-size: 16px !important;
               }  
             }
             .soonSubtitle{
-                h2{
-                font-size: 21px;
+              text-align: center !important;
+                span{
+                font-size: 21px !important;
+                line-height: 1.3 !important;
                 }
             }
         }
     }
+    
   }
 }
