@@ -1,0 +1,100 @@
+.sooncardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    .card1{
+        padding: 40px 30px 40px 30px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 373px;
+        width: 33.33%;
+        height: 238px;
+        .cardHeader{
+            text-align: center;
+            img{
+                width: 37px;
+                height: 30px;
+                object-fit: contain;
+            }
+            margin-bottom: 15px;
+        }
+        .cardTitle{
+            text-align: center;
+            span{
+                color: #051C2C;
+                font-family: "Roboto",Sans-serif;
+                font-size: 21px;
+                font-weight: 600;
+                letter-spacing: 0px;
+               
+            }
+            margin-top: .5rem;
+            margin-bottom: 1rem;
+        }
+        .cardDesc{
+            p{
+                text-align: center;
+                color: #051C2C;
+                font-family: "Roboto",Sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+    }
+    .card2{
+        padding: 40px 30px 40px 30px;
+        background: #016DD4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 373px;
+        height: 288px;
+        width: 33.33%;
+        .cardHeader{
+            text-align: center;
+            img{
+                width: 37px;
+                height: 30px;
+                object-fit: contain;
+            }
+            margin-bottom: 15px;
+        }
+        .cardTitle{
+            text-align: center;
+            span{
+                color: #fff;
+                font-family: "Roboto",Sans-serif;
+                font-size: 21px;
+                font-weight: 600;
+                letter-spacing: 0px;
+               
+            }
+            margin-top: .5rem;
+            margin-bottom: 1rem;
+        }
+        .cardDesc{
+            p{
+                text-align: center;
+                color: #fff;
+                font-family: "Roboto",Sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .sooncardContainer{
+        flex-direction: column;
+       
+        .card1, .card2{
+            width: 100%;
+            max-width: 100%;
+        }
+        .card2{
+            height: 238px;
+        }
+    }
+}
