@@ -4,6 +4,8 @@ import Call from "./assets/call.svg";
 import Facebook from "../Topbar/SocialsIcons/facebook-brands.svg";
 import Twitter from "../Topbar/SocialsIcons/twitter-brands.svg";
 import Pintrest from "../Topbar/SocialsIcons/pinterest-brands.svg";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 export const Footer = () => {
   return (
     <div className="footerWrapper" id="footer">
@@ -22,12 +24,31 @@ export const Footer = () => {
             <span>QUICK LINKS</span>
             <div className="about">
               <ul>
-                <li>How it Works</li>
-                <li>Testimonials</li>
-                <li>Why Us</li>
-                <li>Services</li>
-                <li>FAQ</li>
-                <li>Coming Soon</li>
+                <li>
+                  <Link to="works" smooth={true} delay={100} offset={-50}>
+                    How it works
+                  </Link>
+                  </li>
+                <li>  <Link
+                    to="testimonials"
+                    smooth={true}
+                    delay={100}
+                    offset={-45}
+                  >
+                    Testimonials
+                  </Link></li>
+                <li><Link to="whyus" smooth={true} delay={100} offset={-50}>
+                    Why us
+                  </Link></li>
+                <li><Link to="services" smooth={true} delay={100} offset={-50}>
+                    Services
+                  </Link></li>
+                <li> <Link to="faq" smooth={true} delay={100} offset={-50}>
+                    Faq
+                  </Link></li>
+                <li><Link to="soon" smooth={true} delay={100} offset={-50}>
+                    Coming soon
+                  </Link></li>
               </ul>
             </div>
           </div>
