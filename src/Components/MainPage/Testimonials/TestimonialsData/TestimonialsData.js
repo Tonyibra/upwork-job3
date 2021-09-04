@@ -1,38 +1,39 @@
 import Client from "./assets/client.jpg";
 import Men from "./assets/men.jpg";
 import Woman from "./assets/woman-icon.png";
-
+import Nivedita from "./assets/Nivedita-Roychoudhary.jpg";
+import Avisek from "./assets/Avisek-Duta.jpg";
 export const data = [
-  {
-    id: 1,
-    rating: 5,
-    name: "Aaditya Roy",
-    image: Men,
-    comment:
-      "Kalacoat never disappoints. Excellent Service, Genuine Guidance. Just one call away from us, flexible Signing time even on Sunday we can do the agreement and great for a hassle-free rent agreement.",
-  },
-  {
-    id: 2,
-    rating: 5,
-    name: "Madhurima",
-    image: Woman,
-    comment:
-      "Good customer service and interaction. I got my rental agreement done at a lower price compared to what we pay to any agent or broker. Entire thing was done quite smoothly and perfectly.",
-  },
-  {
-    id: 3,
-    rating: 5,
-    name: "Aanand",
-    image: Men,
-    comment:
-      "Excellent Service, Genuine Guidance. Just one call away from us, flexible Signing time even on Sunday we can do the agreement and great for a hassle-free rent agreement.",
-  },
-  {
-    id: 4,
-    rating: 5,
-    name: "Priyanshi",
-    image: Woman,
-    comment:
-      "House need is important for all but agreement of that is also equally important and Kalacoat rent agreement online gives their client importance and effective service...so I recommend all...",
-  },
+	{
+		id: 1,
+		rating: 5,
+		name: "Nivedita Roychowdhury",
+		image: Nivedita,
+		comment:
+			"Getting the important rent agreement without rushing from pillar to post was possible only due to Kalacoat's online service. It was fast, convenient and agreement was delivered right at my doorstep. The rates are very affordable. All you have to do is share your details online and voila your agreement is done in a short period.",
+	},
+	{
+		id: 2,
+		rating: 5,
+		name: "Arnab Mukherjee",
+		image: Client,
+		comment:
+			"I am very much satisfied the way they professionally handled my case. Very thorough and on time delivery of the assigned task with no mistakes committed. I will surely recommend my family and friends to avail their service in case of a need.",
+	},
+	{
+		id: 3,
+		rating: 5,
+		name: "Pranjal Pathak",
+		image: Men,
+		comment:
+			"I am very much satisfied the way they professionally handled my case. Very thorough and on time delivery of the assigned task with no mistakes committed. I will surely recommend my family and friends to avail their service in case of a need.",
+	},
+	{
+		id: 4,
+		rating: 5,
+		name: "Priyanshi",
+		image: Woman,
+		comment:
+			"House need is important for all but agreement of that is also equally important and Kalacoat rent agreement online gives their client importance and effective service...so I recommend all...",
+	},
 ];

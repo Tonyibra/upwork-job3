@@ -1,68 +1,71 @@
-.testCard{
-    width: 343px;
-    height: 340px;
-    background-color: #fff;
-    -webkit-box-shadow: 9px 11px 14px 0 rgba(0,0,0,0.1);
-    box-shadow: 9px 11px 14px 0 rgba(0,0,0,0.1);
-    padding: 30px;
-    position: relative;
-    -webkit-transition: all .4s ease;
-    transition: all .4s ease;
-    z-index: 1;
-    margin: 0 10px;
-    .rating{
-        display: flex;
-        ul{
-            display: flex;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-    }
-    .comment{
-        margin: 30px 0;
-        p{
-            font-family: "Roboto",Sans-serif;
-            font-weight: 500;
-            font-style: italic;
-            color: #1E293B;
-        }
-    }
-    .footer{
-        display: flex;
-        align-items: center;
-       
-        .hero{
-            height: 70px;
-            width: 70px;
-            margin-right: 20px;
-            img{
-                height: 100%;
-                width: 100%;
-                object-fit: contain;
-            }
-        }
-        .fullName{
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            strong{
-                font-size: 18px;
-                font-weight: 700;
-                color: #000;
-                -webkit-transition: color .3s;
-                transition: color .3s;
-            }
-            img{
-                opacity: 0.1;
-            }
-        }
-    }
+.testCard {
+	width: 530px;
+	height: auto;
+
+	background-color: #fff;
+	-webkit-box-shadow: 9px 11px 14px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 9px 11px 14px 0 rgba(0, 0, 0, 0.1);
+	padding: 30px;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	z-index: 1;
+	margin: 0 10px;
+	.rating {
+		display: flex;
+		ul {
+			display: flex;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.comment {
+		margin: 30px 0;
+		p {
+			font-family: "Roboto", Sans-serif;
+			font-weight: 500;
+			font-style: italic;
+			color: #1e293b;
+		}
+	}
+	.footer {
+		display: flex;
+		align-items: center;
+
+		.hero {
+			height: 70px;
+			width: 70px;
+			margin-right: 20px;
+			border-radius: 50%;
+			img {
+				height: 70px;
+				width: 70px;
+				object-fit: contain;
+				border-radius: 50%;
+			}
+		}
+		.fullName {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			strong {
+				font-size: 18px;
+				font-weight: 700;
+				color: #000;
+				-webkit-transition: color 0.3s;
+				transition: color 0.3s;
+			}
+			img {
+				opacity: 0.1;
+			}
+		}
+	}
 }
-@media (max-width:600px){
-    .testCard{
-        width: 90%;
-        margin: 0 auto;
-    }
+@media (max-width: 600px) {
+	.testCard {
+		width: 90%;
+		margin: 0 auto;
+	}
 }
